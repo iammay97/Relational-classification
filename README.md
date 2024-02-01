@@ -14,8 +14,6 @@ Name of the code:Relational-classification
 
 Contact: maying2019@cug.edu.cn
 
-Hardware requirements: ... 
-
 Program language: python
 
 Software required:  python3.6, Tensorflow1.15, keras2.3.1.
