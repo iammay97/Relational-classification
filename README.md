@@ -30,6 +30,8 @@ We have provided the trained ALBERT-BIGRU-ATTENTION model (in checkpoint) in thi
 
 In addition, we have shared some of the used case datasets in the paper, and you can also train your model using model_train.py by setting up a local data path.
 
-If you have any question, please contact the corresponding author.
+As the content of the dataset cannot be made public in its entirety, please contact us if you require the full Chinese version of the dataset.
+
+If you have any question, please contact us.
 
 Thanks for your attention!
