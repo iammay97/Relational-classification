@@ -47,6 +47,7 @@ This study is based on the Chinese dataset, the data content is in the `data_exa
  
 _Raw data access link：_[https://geocloud.cgs.gov.cn/](https://geocloud.cgs.gov.cn/) & [http://dc.ngac.org.cn/openReport](http://dc.ngac.org.cn/openReport) 
 [data](data)
+
 To make it easier for researchers from all over the world to understand the data and the paper, we have provided data cases in English and Chinese.
 
 Chinese version:`data_example.xls`  
