@@ -20,7 +20,7 @@ Program language: python
 
 Software required:  python3.6, Tensorflow1.15, keras2.3.1.
 
-The source codes are available for downloading at the link: https://github.com/... 
+The source codes are available for downloading at the link: https://github.com/iammay97/Relational-classification.git
 
 ### _Data availability_
 
