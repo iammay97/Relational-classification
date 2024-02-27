@@ -1,0 +1,10 @@
+{
+  "Property": 1,
+  "Spatial": 2,
+  "Function": 3,
+  "Casual": 4,
+  "Unknown": 5,
+  "Temporal": 6,
+  "Condition": 7,
+  "Follow": 8
+}
