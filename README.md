@@ -82,7 +82,7 @@ _from albert_zh.extract_feature import BertVector_
 After the model was trained, the accuracy on the validation dataset was 86.40% and the F1 value was 88.46%, which gave good results.
 > 3.2 model_predict.py  
 
-`model_train.py`A folder named `model` is automatically generated when the model is trained.
+`model_predict.py`A folder named `model` is automatically generated when the model is trained.
 
 The best model after training is completed is used as the predictive model: 
 
