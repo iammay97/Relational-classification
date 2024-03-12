@@ -22,20 +22,16 @@ The file in order to divide the data into a training dataset and a test dataset.
 
 **The output result is:**
 
-
-|  total | 100 |
-|---|-----|
-|spatial | 30  |
-|property| 20  |
-|follow | 10  |
-|condition | 9   |
-|function| 9   |
-|casual| 8   |
-|temporal| 9   |
-|unknown| 5   |
-
-Name: relationship, dtype: int64
-
+total       100<br>
+spatial      29<br>
+property     19<br>
+follow       10<br>
+condition     9<br>
+function      9<br>
+casual        8<br>
+temporal      8<br>
+unknown       5 <br>
+Name: relationship, dtype: int64<br>
 ----
 > 3. load_data.py  
 The files are for labelling relationships, calculating the maximum length, average length, minimum length, etc. of the text.。
