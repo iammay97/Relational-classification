@@ -1,6 +1,6 @@
 
 # Experimental data pre-processing instructions document
-_The data refers to Chinese text data, we only provide 100 Chinese data for running, if you need all the data, please contact us.
+The data refers to Chinese text data, we only provide 100 Chinese data for running, if you need all the data, please contact us.
 
 Chinese version:`data_example.xls`
 
