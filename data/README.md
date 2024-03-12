@@ -32,6 +32,10 @@ casual        8<br>
 temporal      8<br>
 unknown       5 <br>
 Name: relationship, dtype: int64<br>
+
+Since the test data here is in Chinese, the generated train.txt and test.txt files are in Chinese language;
+If you need to use English data, please change the data input to "data_example_eng.xls", which will be easier for you to understand.
+
 ----
 > 3. load_data.py  
 The files are for labelling relationships, calculating the maximum length, average length, minimum length, etc. of the text.。
