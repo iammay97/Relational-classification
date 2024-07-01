@@ -1,0 +1,1078 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7">
+    <Prefix name="" IRI="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <Literal>maying2019@cug.edu.cn</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.1</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#AgriculturalAndForestryAndFisheryFacilitiesAndEquipmentAndProducts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArtificialDepositLandslide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Asset"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BiologicalResource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BuildingsAndStructures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClayeyLandslide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Climate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Climatological"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CoarsegarinedSoilLandslide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CommunicationFacilitiesAndEquipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Construction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConsumerDurables"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CultureFacilitiesAndEquipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CurrentAssets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DisasterCausingBody"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DisasterFormingEnvironment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Earthquakes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EarthyLandslide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EcologicalResource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EconomicMarket"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EducationalFacilitiesAndEquipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EnergyFacilitiesAndEquipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EngineeredLandslide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExpansiveSoilLandslide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exposure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FacilitiesAndEquipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FamilyProperty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FinegrainedSoilLandslide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FixedAssets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FloraAndFauna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Geomorphology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#House"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HumanActivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hydrography"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hydrology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IndustrialFacilitiesEquipmentProductsAndRawMaterials"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IndustryAndMiningAndCommerce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Infrastructure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LandResource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LandslideGeologicalDisaster"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LoessLandslide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MedicalAndHealthFacilitiesAndEquipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MineralExtraction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MineralResource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MunicipalFacilitiesAndEquipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NaturalEnvironment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NaturalLandslide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherCurrentAssets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherFinegrainedLandslide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#People"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhysicalEducationFacilitiesAndEquipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PlantCover"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProductiveFixedAssets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProductsAndRawMaterials"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PublicPlace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PublicProperty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PublicServiceFacilities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QuarryingAndLandfilling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RadioAndTelevisionFacilitiesAndEquipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ResourcesAndEnvironment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RockyLandslide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SOftsoilLandslide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ScienceAndTechnologyFacilitiesAndEquipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ServiceIndustryFacilitiesAndEquipmentProductsAndRawMaterials"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialEnvironment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialSecurityAndManagementFacilitiesAndEquipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Soil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TertiaryIndustryFacilitiesAndEquipmentAndProductsAndRawMaterials"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TheAccumulationLandslide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TheDebrisLayerLandslide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThrustLandslide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThunderAndLightning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TorrentialRain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TractionLandslide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TrafficSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TransportFacilitiesAndEquipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VariousPipelines"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VolcanicEruption"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WaterResource"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#After"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Before"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCausedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasConcurrent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLeadTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTime"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPartOf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Altitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#AverageThickness"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CoordinateSystem"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#GeographicLocation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#GeologicalTime"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Latitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Length"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#LevelOfDisaster"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Lithology"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Longitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Size"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Time"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#TimeOfDisaster"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Topographical"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Width"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DirectEconomicLoss"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HumanEngineeringActivities"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#InjuriesAndDeaths"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Landslide_disaster_in_Wuxi_County_Chongqing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NaturalFactor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rainfall"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AgriculturalAndForestryAndFisheryFacilitiesAndEquipmentAndProducts"/>
+        <Class IRI="#TertiaryIndustryFacilitiesAndEquipmentAndProductsAndRawMaterials"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArtificialDepositLandslide"/>
+        <Class IRI="#CoarsegarinedSoilLandslide"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asset"/>
+        <Class IRI="#Exposure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BiologicalResource"/>
+        <Class IRI="#ResourcesAndEnvironment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BuildingsAndStructures"/>
+        <Class IRI="#FixedAssets"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClayeyLandslide"/>
+        <Class IRI="#FinegrainedSoilLandslide"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Climate"/>
+        <Class IRI="#NaturalEnvironment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Climatological"/>
+        <Class IRI="#DisasterCausingBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CoarsegarinedSoilLandslide"/>
+        <Class IRI="#LandslideGeologicalDisaster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CommunicationFacilitiesAndEquipment"/>
+        <Class IRI="#Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Construction"/>
+        <Class IRI="#HumanActivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConsumerDurables"/>
+        <Class IRI="#FamilyProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CultureFacilitiesAndEquipment"/>
+        <Class IRI="#PublicServiceFacilities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CurrentAssets"/>
+        <Class IRI="#Asset"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Earthquakes"/>
+        <Class IRI="#Climatological"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EarthyLandslide"/>
+        <Class IRI="#LandslideGeologicalDisaster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EcologicalResource"/>
+        <Class IRI="#ResourcesAndEnvironment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EconomicMarket"/>
+        <Class IRI="#SocialEnvironment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EducationalFacilitiesAndEquipment"/>
+        <Class IRI="#PublicServiceFacilities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EnergyFacilitiesAndEquipment"/>
+        <Class IRI="#Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EngineeredLandslide"/>
+        <Class IRI="#LandslideGeologicalDisaster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExpansiveSoilLandslide"/>
+        <Class IRI="#FinegrainedSoilLandslide"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FacilitiesAndEquipment"/>
+        <Class IRI="#FixedAssets"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FamilyProperty"/>
+        <Class IRI="#Asset"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FinegrainedSoilLandslide"/>
+        <Class IRI="#LandslideGeologicalDisaster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FixedAssets"/>
+        <Class IRI="#Asset"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FloraAndFauna"/>
+        <Class IRI="#NaturalEnvironment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Geomorphology"/>
+        <Class IRI="#NaturalEnvironment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#House"/>
+        <Class IRI="#FamilyProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#House"/>
+        <Class IRI="#PublicProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HumanActivity"/>
+        <Class IRI="#DisasterCausingBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hydrography"/>
+        <Class IRI="#DisasterCausingBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hydrology"/>
+        <Class IRI="#NaturalEnvironment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IndustrialFacilitiesEquipmentProductsAndRawMaterials"/>
+        <Class IRI="#TertiaryIndustryFacilitiesAndEquipmentAndProductsAndRawMaterials"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IndustryAndMiningAndCommerce"/>
+        <Class IRI="#SocialEnvironment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Infrastructure"/>
+        <Class IRI="#PublicProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LandResource"/>
+        <Class IRI="#ResourcesAndEnvironment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LoessLandslide"/>
+        <Class IRI="#FinegrainedSoilLandslide"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicalAndHealthFacilitiesAndEquipment"/>
+        <Class IRI="#PublicServiceFacilities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MineralExtraction"/>
+        <Class IRI="#HumanActivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MineralResource"/>
+        <Class IRI="#ResourcesAndEnvironment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MunicipalFacilitiesAndEquipment"/>
+        <Class IRI="#Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NaturalEnvironment"/>
+        <Class IRI="#DisasterFormingEnvironment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NaturalLandslide"/>
+        <Class IRI="#LandslideGeologicalDisaster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherCurrentAssets"/>
+        <Class IRI="#CurrentAssets"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherFinegrainedLandslide"/>
+        <Class IRI="#FinegrainedSoilLandslide"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#People"/>
+        <Class IRI="#Exposure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysicalEducationFacilitiesAndEquipment"/>
+        <Class IRI="#PublicServiceFacilities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PlantCover"/>
+        <Class IRI="#NaturalEnvironment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProductiveFixedAssets"/>
+        <Class IRI="#FamilyProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProductsAndRawMaterials"/>
+        <Class IRI="#CurrentAssets"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PublicPlace"/>
+        <Class IRI="#SocialEnvironment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PublicProperty"/>
+        <Class IRI="#Asset"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PublicServiceFacilities"/>
+        <Class IRI="#PublicProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QuarryingAndLandfilling"/>
+        <Class IRI="#HumanActivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RadioAndTelevisionFacilitiesAndEquipment"/>
+        <Class IRI="#PublicServiceFacilities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ResourcesAndEnvironment"/>
+        <Class IRI="#Exposure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RockyLandslide"/>
+        <Class IRI="#LandslideGeologicalDisaster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SOftsoilLandslide"/>
+        <Class IRI="#FinegrainedSoilLandslide"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ScienceAndTechnologyFacilitiesAndEquipment"/>
+        <Class IRI="#PublicServiceFacilities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ServiceIndustryFacilitiesAndEquipmentProductsAndRawMaterials"/>
+        <Class IRI="#TertiaryIndustryFacilitiesAndEquipmentAndProductsAndRawMaterials"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialEnvironment"/>
+        <Class IRI="#DisasterFormingEnvironment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialSecurityAndManagementFacilitiesAndEquipment"/>
+        <Class IRI="#PublicServiceFacilities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Soil"/>
+        <Class IRI="#NaturalEnvironment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TertiaryIndustryFacilitiesAndEquipmentAndProductsAndRawMaterials"/>
+        <Class IRI="#PublicProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TheAccumulationLandslide"/>
+        <Class IRI="#CoarsegarinedSoilLandslide"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TheDebrisLayerLandslide"/>
+        <Class IRI="#CoarsegarinedSoilLandslide"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThrustLandslide"/>
+        <Class IRI="#LandslideGeologicalDisaster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThunderAndLightning"/>
+        <Class IRI="#Climatological"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TorrentialRain"/>
+        <Class IRI="#Climatological"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TractionLandslide"/>
+        <Class IRI="#LandslideGeologicalDisaster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrafficSystem"/>
+        <Class IRI="#SocialEnvironment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TransportFacilitiesAndEquipment"/>
+        <Class IRI="#Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VariousPipelines"/>
+        <Class IRI="#SocialEnvironment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VolcanicEruption"/>
+        <Class IRI="#Climatological"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WaterResource"/>
+        <Class IRI="#ResourcesAndEnvironment"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#AgriculturalAndForestryAndFisheryFacilitiesAndEquipmentAndProducts"/>
+        <Class IRI="#IndustrialFacilitiesEquipmentProductsAndRawMaterials"/>
+        <Class IRI="#ServiceIndustryFacilitiesAndEquipmentProductsAndRawMaterials"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ArtificialDepositLandslide"/>
+        <Class IRI="#TheAccumulationLandslide"/>
+        <Class IRI="#TheDebrisLayerLandslide"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Asset"/>
+        <Class IRI="#ResourcesAndEnvironment"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BiologicalResource"/>
+        <Class IRI="#EcologicalResource"/>
+        <Class IRI="#LandResource"/>
+        <Class IRI="#MineralResource"/>
+        <Class IRI="#WaterResource"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BuildingsAndStructures"/>
+        <Class IRI="#FacilitiesAndEquipment"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ClayeyLandslide"/>
+        <Class IRI="#ExpansiveSoilLandslide"/>
+        <Class IRI="#LoessLandslide"/>
+        <Class IRI="#OtherFinegrainedLandslide"/>
+        <Class IRI="#SOftsoilLandslide"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CoarsegarinedSoilLandslide"/>
+        <Class IRI="#EarthyLandslide"/>
+        <Class IRI="#EngineeredLandslide"/>
+        <Class IRI="#FinegrainedSoilLandslide"/>
+        <Class IRI="#NaturalLandslide"/>
+        <Class IRI="#RockyLandslide"/>
+        <Class IRI="#ThrustLandslide"/>
+        <Class IRI="#TractionLandslide"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CommunicationFacilitiesAndEquipment"/>
+        <Class IRI="#EnergyFacilitiesAndEquipment"/>
+        <Class IRI="#MunicipalFacilitiesAndEquipment"/>
+        <Class IRI="#TransportFacilitiesAndEquipment"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ConsumerDurables"/>
+        <Class IRI="#House"/>
+        <Class IRI="#ProductiveFixedAssets"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CultureFacilitiesAndEquipment"/>
+        <Class IRI="#EducationalFacilitiesAndEquipment"/>
+        <Class IRI="#MedicalAndHealthFacilitiesAndEquipment"/>
+        <Class IRI="#PhysicalEducationFacilitiesAndEquipment"/>
+        <Class IRI="#RadioAndTelevisionFacilitiesAndEquipment"/>
+        <Class IRI="#ScienceAndTechnologyFacilitiesAndEquipment"/>
+        <Class IRI="#SocialSecurityAndManagementFacilitiesAndEquipment"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CurrentAssets"/>
+        <Class IRI="#FamilyProperty"/>
+        <Class IRI="#FixedAssets"/>
+        <Class IRI="#PublicProperty"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DisasterCausingBody"/>
+        <Class IRI="#DisasterFormingEnvironment"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DisasterCausingBody"/>
+        <Class IRI="#DisasterFormingEnvironment"/>
+        <Class IRI="#LandslideGeologicalDisaster"/>
+        <Class IRI="#NaturalEnvironment"/>
+        <Class IRI="#SocialEnvironment"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DisasterCausingBody"/>
+        <Class IRI="#LandslideGeologicalDisaster"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <Annotation>
+                <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+                <Literal>Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi on 23-10-16 下午8:02</Literal>
+            </Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>DisjointClasses(&lt;http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#DisasterCausingBody&gt;) replaced by DisjointClasses(&lt;http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#DisasterCausingBody&gt; owl:Thing)</Literal>
+        </Annotation>
+        <Class IRI="#DisasterCausingBody"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Earthquakes"/>
+        <Class IRI="#ThunderAndLightning"/>
+        <Class IRI="#TorrentialRain"/>
+        <Class IRI="#VolcanicEruption"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EarthyLandslide"/>
+        <Class IRI="#EngineeredLandslide"/>
+        <Class IRI="#NaturalLandslide"/>
+        <Class IRI="#RockyLandslide"/>
+        <Class IRI="#ThrustLandslide"/>
+        <Class IRI="#TractionLandslide"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EducationalFacilitiesAndEquipment"/>
+        <Class IRI="#MedicalAndHealthFacilitiesAndEquipment"/>
+        <Class IRI="#ScienceAndTechnologyFacilitiesAndEquipment"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#House"/>
+        <Class IRI="#Infrastructure"/>
+        <Class IRI="#PublicServiceFacilities"/>
+        <Class IRI="#TertiaryIndustryFacilitiesAndEquipmentAndProductsAndRawMaterials"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#LandslideGeologicalDisaster"/>
+        <Class IRI="#NaturalEnvironment"/>
+        <Class IRI="#SocialEnvironment"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OtherCurrentAssets"/>
+        <Class IRI="#ProductsAndRawMaterials"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Asset"/>
+        <NamedIndividual IRI="#DirectEconomicLoss"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Construction"/>
+        <NamedIndividual IRI="#HumanEngineeringActivities"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#People"/>
+        <NamedIndividual IRI="#InjuriesAndDeaths"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RockyLandslide"/>
+        <NamedIndividual IRI="#Landslide_disaster_in_Wuxi_County_Chongqing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Geomorphology"/>
+        <NamedIndividual IRI="#NaturalFactor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TorrentialRain"/>
+        <NamedIndividual IRI="#Rainfall"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#DirectEconomicLoss"/>
+        <NamedIndividual IRI="#InjuriesAndDeaths"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCausedBy"/>
+        <NamedIndividual IRI="#DirectEconomicLoss"/>
+        <NamedIndividual IRI="#Landslide_disaster_in_Wuxi_County_Chongqing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Before"/>
+        <NamedIndividual IRI="#HumanEngineeringActivities"/>
+        <NamedIndividual IRI="#Rainfall"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLeadTo"/>
+        <NamedIndividual IRI="#HumanEngineeringActivities"/>
+        <NamedIndividual IRI="#Landslide_disaster_in_Wuxi_County_Chongqing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCausedBy"/>
+        <NamedIndividual IRI="#InjuriesAndDeaths"/>
+        <NamedIndividual IRI="#Landslide_disaster_in_Wuxi_County_Chongqing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCausedBy"/>
+        <NamedIndividual IRI="#Landslide_disaster_in_Wuxi_County_Chongqing"/>
+        <NamedIndividual IRI="#HumanEngineeringActivities"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCausedBy"/>
+        <NamedIndividual IRI="#Landslide_disaster_in_Wuxi_County_Chongqing"/>
+        <NamedIndividual IRI="#NaturalFactor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCausedBy"/>
+        <NamedIndividual IRI="#Landslide_disaster_in_Wuxi_County_Chongqing"/>
+        <NamedIndividual IRI="#Rainfall"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLeadTo"/>
+        <NamedIndividual IRI="#Landslide_disaster_in_Wuxi_County_Chongqing"/>
+        <NamedIndividual IRI="#DirectEconomicLoss"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLeadTo"/>
+        <NamedIndividual IRI="#Landslide_disaster_in_Wuxi_County_Chongqing"/>
+        <NamedIndividual IRI="#InjuriesAndDeaths"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLeadTo"/>
+        <NamedIndividual IRI="#NaturalFactor"/>
+        <NamedIndividual IRI="#Landslide_disaster_in_Wuxi_County_Chongqing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#After"/>
+        <NamedIndividual IRI="#Rainfall"/>
+        <NamedIndividual IRI="#HumanEngineeringActivities"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLeadTo"/>
+        <NamedIndividual IRI="#Rainfall"/>
+        <NamedIndividual IRI="#Landslide_disaster_in_Wuxi_County_Chongqing"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Altitude"/>
+        <NamedIndividual IRI="#HumanEngineeringActivities"/>
+        <Literal>58Metres</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TimeOfDisaster"/>
+        <NamedIndividual IRI="#HumanEngineeringActivities"/>
+        <Literal>18 June 2022</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Width"/>
+        <NamedIndividual IRI="#HumanEngineeringActivities"/>
+        <Literal>118Metres</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#AverageThickness"/>
+        <NamedIndividual IRI="#Landslide_disaster_in_Wuxi_County_Chongqing"/>
+        <Literal>30 metres</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GeographicLocation"/>
+        <NamedIndividual IRI="#Landslide_disaster_in_Wuxi_County_Chongqing"/>
+        <Literal>Zhongba Village, Bailu Township, Wuxi County</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Latitude"/>
+        <NamedIndividual IRI="#Landslide_disaster_in_Wuxi_County_Chongqing"/>
+        <Literal>109°37′15.73</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Length"/>
+        <NamedIndividual IRI="#Landslide_disaster_in_Wuxi_County_Chongqing"/>
+        <Literal>500 metres</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Longitude"/>
+        <NamedIndividual IRI="#Landslide_disaster_in_Wuxi_County_Chongqing"/>
+        <Literal>31°36′46.5″</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Size"/>
+        <NamedIndividual IRI="#Landslide_disaster_in_Wuxi_County_Chongqing"/>
+        <Literal>1.5 million cubic metres</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TimeOfDisaster"/>
+        <NamedIndividual IRI="#Landslide_disaster_in_Wuxi_County_Chongqing"/>
+        <Literal>23 June 2022 12:46 p.m.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Width"/>
+        <NamedIndividual IRI="#Landslide_disaster_in_Wuxi_County_Chongqing"/>
+        <Literal>100 metres</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Lithology"/>
+        <NamedIndividual IRI="#NaturalFactor"/>
+        <Literal>Permian Upper Wujiaping Formation stratigraphy (P3W) grey rock</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Topographical"/>
+        <NamedIndividual IRI="#NaturalFactor"/>
+        <Literal>SlopeAngle 40°～50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Size"/>
+        <NamedIndividual IRI="#Rainfall"/>
+        <Literal>MaximumRainfall138.6mm</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TimeOfDisaster"/>
+        <NamedIndividual IRI="#Rainfall"/>
+        <Literal>22 June 22 June 20:00-23 June 20:00</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#After"/>
+        <ObjectProperty IRI="#hasTime"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Before"/>
+        <ObjectProperty IRI="#hasTime"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasCausedBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasConcurrent"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasLeadTo"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTime"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isPartOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#After"/>
+        <ObjectProperty IRI="#Before"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasCausedBy"/>
+        <ObjectProperty IRI="#hasLeadTo"/>
+    </InverseObjectProperties>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#isPartOf"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCausedBy"/>
+        <Class IRI="#LandslideGeologicalDisaster"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLeadTo"/>
+        <Class IRI="#DisasterCausingBody"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPartOf"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isPartOf"/>
+            <Class IRI="#LandslideGeologicalDisaster"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCausedBy"/>
+        <Class IRI="#DisasterCausingBody"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLeadTo"/>
+        <Class IRI="#Exposure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPartOf"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isPartOf"/>
+            <Class IRI="#LandslideGeologicalDisaster"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Altitude"/>
+        <DataProperty IRI="#CoordinateSystem"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#AverageThickness"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#CoordinateSystem"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#GeographicLocation"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#GeologicalTime"/>
+        <DataProperty IRI="#Time"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Latitude"/>
+        <DataProperty IRI="#CoordinateSystem"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Length"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#LevelOfDisaster"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Longitude"/>
+        <DataProperty IRI="#CoordinateSystem"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Size"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Time"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#TimeOfDisaster"/>
+        <DataProperty IRI="#Time"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Topographical"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Width"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyRange>
+        <DataProperty IRI="#GeographicLocation"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Time"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

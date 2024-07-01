@@ -1,0 +1,1612 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#"
+     xml:base="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Affected_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Affected_by">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Caused_by"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#因果关系"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Affected_by"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地质灾害"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Affected_by"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#人类工程活动"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Affected_by"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地形地貌"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Affected_by"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地质构造"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Affected_by"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#岩性"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Affected_by"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#活动断裂"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#After -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#After">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#时间关系"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Before"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#After"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#斜坡岩土体运动灾害"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#After"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地球内动力活动灾害"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Before -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Before">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#时间关系"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#lead_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地球内动力活动灾害"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#lead_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#斜坡岩土体运动灾害"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Caused_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Caused_by">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#因果关系"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#lead_to"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Caused_by"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地质灾害"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Caused_by"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#承灾体"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Caused_by"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#致灾因子"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Caused_by"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地质灾害"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Is_a -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Is_a">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#属性关系"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地质灾害"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地质灾害"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Part_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Part_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#属性关系"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Part_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地质灾害"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Part_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#孕灾环境"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Part_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地质灾害"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Part_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#孕灾环境"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#kind_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#kind_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#属性关系"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Before"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地球内动力活动灾害"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#kind_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#崩塌"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Before"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#斜坡岩土体运动灾害"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#kind_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地球内动力活动灾害"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#lead_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#lead_to">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#因果关系"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#lead_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地质灾害"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#lead_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#致灾因子"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#lead_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地质灾害"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#lead_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#承灾体"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#因果关系 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#因果关系">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#属性关系 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#属性关系">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#时间关系 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#时间关系">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#发生时间 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#发生时间">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地理位置 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地理位置">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#灾害等级 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#灾害等级">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#专项设施 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#专项设施">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#承灾体"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#交通状况 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#交通状况">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#承灾体"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#交通系统 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#交通系统">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#社会环境"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#人 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#人">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#社会环境"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#人口状况 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#人口状况">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#承灾体"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#人类工程活动 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#人类工程活动">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#致灾因子"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#自然地质作用"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#公共场所 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#公共场所">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#社会环境"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#内力地质作用 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#内力地质作用">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#自然地质作用"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#外力地质作用"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#冲击地压 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#冲击地压">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#矿山与地下工程灾害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#冻土 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#冻土">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#特殊岩土灾害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#剥蚀作用 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#剥蚀作用">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#外力地质作用"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#动植物 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#动植物">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#自然环境"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#危岩塑性变形 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#危岩塑性变形">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#矿山与地下工程灾害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#变质作用 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#变质作用">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#内力地质作用"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#各种管线 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#各种管线">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#社会环境"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#固结成岩作用 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#固结成岩作用">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#外力地质作用"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#土地退化灾害 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#土地退化灾害">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地质灾害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#土壤 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#土壤">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#自然环境"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地下水位升降 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地下水位升降">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地下水变异"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#水质污染"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地下水变异 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地下水变异">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地质灾害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地壳运动 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地壳运动">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#内力地质作用"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地形 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地形">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#自然环境"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地形地貌 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地形地貌">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#致灾因子"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地方病 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地方病">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#水土环境异常"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#kind_of"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#水土环境异常"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地球内动力活动灾害 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地球内动力活动灾害">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地质灾害"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#lead_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#斜坡岩土体运动灾害"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地貌 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地貌">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#自然环境"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地质构造 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地质构造">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#致灾因子"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地质灾害 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地质灾害">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#承灾体"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地震 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地震">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地球内动力活动灾害"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Is_a"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地球内动力活动灾害"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地质灾害"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地震作用 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地震作用">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#内力地质作用"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地面变形破裂灾害 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地面变形破裂灾害">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地质灾害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地面塌陷 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地面塌陷">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地面变形破裂灾害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地面沉降 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地面沉降">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地面变形破裂灾害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#坑道突水 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#坑道突水">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#矿山与地下工程灾害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#堤坝溃决 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#堤坝溃决">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#河湖（水库）灾害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#塌岸 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#塌岸">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#河湖（水库）灾害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#外力地质作用 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#外力地质作用">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#自然地质作用"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#孕灾环境 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#孕灾环境">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#承灾体"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#岩性 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#岩性">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#致灾因子"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#岩浆作用 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#岩浆作用">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#内力地质作用"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#岩爆 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#岩爆">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#矿山与地下工程灾害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#崩塌 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#崩塌">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#斜坡岩土体运动灾害"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#kind_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#斜坡岩土体运动灾害"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#工矿商贸 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#工矿商贸">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#社会环境"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#承灾体 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#承灾体">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#致灾因子"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#搬运作用 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#搬运作用">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#外力地质作用"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#斜坡岩土体运动灾害 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#斜坡岩土体运动灾害">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地质灾害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#构造裂缝 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#构造裂缝">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地球内动力活动灾害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#植被 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#植被">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#自然环境"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#气候 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#气候">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#自然环境"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#水土流失 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#水土流失">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#土地退化灾害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#水土环境异常 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#水土环境异常">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地质灾害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#水文 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#水文">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#自然环境"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#水质污染 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#水质污染">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地下水变异"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#沉积作用 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#沉积作用">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#外力地质作用"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#河湖（水库）灾害 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#河湖（水库）灾害">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地质灾害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#沼泽化 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#沼泽化">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#土地退化灾害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#泥石流 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#泥石流">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#斜坡岩土体运动灾害"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#kind_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#斜坡岩土体运动灾害"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Is_a"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地质灾害"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#斜坡岩土体运动灾害"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地震作用"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#活动断裂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#活动断裂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#致灾因子"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#海岸侵蚀 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#海岸侵蚀">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#海洋（岸）动力灾害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#海水入侵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#海水入侵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#海洋（岸）动力灾害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#海洋（岸）动力灾害 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#海洋（岸）动力灾害">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地质灾害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#海面上升 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#海面上升">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#海洋（岸）动力灾害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#淤积 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#淤积">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#河湖（水库）灾害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#渗漏 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#渗漏">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#河湖（水库）灾害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#港口淤积 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#港口淤积">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#海洋（岸）动力灾害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#滑坡 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#滑坡">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#斜坡岩土体运动灾害"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Is_a"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地质灾害"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#斜坡岩土体运动灾害"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#潜在不稳定斜坡 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#潜在不稳定斜坡">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#斜坡岩土体运动灾害"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#kind_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#斜坡岩土体运动灾害"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#火山 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#火山">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地球内动力活动灾害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#煤层自燃 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#煤层自燃">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#矿山与地下工程灾害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#特殊岩土灾害 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#特殊岩土灾害">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地质灾害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#瓦斯突出与爆炸 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#瓦斯突出与爆炸">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#矿山与地下工程灾害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#盐渍化 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#盐渍化">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#土地退化灾害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#矿井与地下热灾 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#矿井与地下热灾">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#矿山与地下工程灾害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#矿山与地下工程灾害 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#矿山与地下工程灾害">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地质灾害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#砂土液化 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#砂土液化">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#特殊岩土灾害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#社会环境 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#社会环境">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#孕灾环境"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#管涌 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#管涌">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#河湖（水库）灾害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#经济市场 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#经济市场">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#社会环境"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#经济状况 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#经济状况">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#承灾体"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#膨胀土 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#膨胀土">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#特殊岩土灾害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#自然地质作用 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#自然地质作用">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#致灾因子"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#自然环境 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#自然环境">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#孕灾环境"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#致灾因子 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#致灾因子"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#荒漠化 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#荒漠化">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#土地退化灾害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#行政区划 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#行政区划">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#承灾体"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#软土 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#软土">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#特殊岩土灾害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#重点保护目标 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#重点保护目标">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#承灾体"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#非构造地裂缝 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#非构造地裂缝">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地面变形破裂灾害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#风化作用 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#风化作用">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#外力地质作用"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#黄土湿陷 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#黄土湿陷">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#特殊岩土灾害"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#人员伤亡 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#人员伤亡">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#人口状况"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#承灾体"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Is_a"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#人口状况"/>
+            </owl:Restriction>
+        </rdf:type>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#公路堵塞"/>
+        <Caused_by rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#汶川大地震"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#修建铁路 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#修建铁路">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#重点保护目标"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#致灾因子"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Is_a"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#人类工程活动"/>
+            </owl:Restriction>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#公路堵塞 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#公路堵塞">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#交通状况"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#承灾体"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Is_a"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#交通状况"/>
+            </owl:Restriction>
+        </rdf:type>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#建筑设施破坏"/>
+        <Caused_by rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#汶川大地震"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#劈理化带 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#劈理化带">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地质构造"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Part_of"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#孕灾环境"/>
+            </owl:Restriction>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#唐家山堰塞湖 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#唐家山堰塞湖">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地质灾害"/>
+            </owl:Restriction>
+        </rdf:type>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#汶川滑坡"/>
+        <lead_to rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#汶川泥石流"/>
+        <发生时间 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008年6月10日1时30分</发生时间>
+        <地理位置 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">涧河上游距北川县城约6公里处</地理位置>
+        <灾害等级 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">严重破坏</灾害等级>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#建筑设施破坏 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#建筑设施破坏">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#专项设施"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#承灾体"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#kind_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#专项设施"/>
+            </owl:Restriction>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#映秀镇中摊堡崩塌 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#映秀镇中摊堡崩塌">
+        <Before rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#汶川大地震"/>
+        <kind_of rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#汶川崩塌"/>
+        <发生时间 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008年5月12日</发生时间>
+        <地理位置 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">汶川县映秀镇</地理位置>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#汶川大地震 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#汶川大地震">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地震"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地球内动力活动灾害"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地质灾害"/>
+            </owl:Restriction>
+        </rdf:type>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#汶川崩塌"/>
+        <Affected_by rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#修建铁路"/>
+        <Affected_by rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#花岗岩"/>
+        <Affected_by rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#龙门山造山带"/>
+        <After rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#映秀镇中摊堡崩塌"/>
+        <lead_to rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#建筑设施破坏"/>
+        <lead_to rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#汶川崩塌"/>
+        <lead_to rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#汶川滑坡"/>
+        <发生时间 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008年5月12日14点28分</发生时间>
+        <地理位置 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">中国四川省汶川县映秀镇
+北纬31°，东经103.4°</地理位置>
+        <灾害等级 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">八级</灾害等级>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#汶川崩塌 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#汶川崩塌">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#崩塌"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#汶川泥石流"/>
+        <Caused_by rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#汶川大地震"/>
+        <lead_to rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#汶川碎屑流"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#汶川泥石流 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#汶川泥石流">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#泥石流"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#泥石流"/>
+            </owl:Restriction>
+        </rdf:type>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#汶川滑坡"/>
+        <Caused_by rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#唐家山堰塞湖"/>
+        <发生时间 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008年9月24日-25日</发生时间>
+        <地理位置 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">为文县白水江和白龙江两侧支沟</地理位置>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#汶川滑坡 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#汶川滑坡">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#滑坡"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#kind_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地质灾害"/>
+            </owl:Restriction>
+        </rdf:type>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#汶川碎屑流"/>
+        <Caused_by rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#汶川大地震"/>
+        <lead_to rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#汶川碎屑流"/>
+        <发生时间 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008年5月12日</发生时间>
+        <地理位置 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">北川县曲山镇任家坪</地理位置>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#汶川碎屑流 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#汶川碎屑流">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#泥石流"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#泥石流"/>
+            </owl:Restriction>
+        </rdf:type>
+        <Caused_by rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#汶川崩塌"/>
+        <Caused_by rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#汶川滑坡"/>
+        <lead_to rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#唐家山堰塞湖"/>
+        <发生时间 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008年5月12日</发生时间>
+        <地理位置 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">岷江两岸和北川县陈家坪被</地理位置>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#片岩 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#片岩">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#岩性"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#砂岩 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#砂岩">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#岩性"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#节理面 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#节理面">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地质构造"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#花岗岩 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#花岗岩">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#岩性"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Part_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#孕灾环境"/>
+            </owl:Restriction>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#页岩 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#页岩">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#岩性"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#龙门山造山带 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#龙门山造山带">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地形地貌"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#Is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#致灾因子"/>
+            </owl:Restriction>
+        </rdf:type>
+        <地理位置 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">中国大陆地形的第一个台阶</地理位置>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#专项设施"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#交通状况"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#人口状况"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#经济状况"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#行政区划"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#重点保护目标"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#交通状况"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#人口状况"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#人类工程活动"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#经济状况"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#自然地质作用"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#行政区划"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#重点保护目标"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#人类工程活动"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地形地貌"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地质构造"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#岩性"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#活动断裂"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#自然地质作用"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#冲击地压"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#危岩塑性变形"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#坑道突水"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#岩爆"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#煤层自燃"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#瓦斯突出与爆炸"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#矿井与地下热灾"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#冲击地压"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#坑道突水"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#岩爆"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#煤层自燃"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#瓦斯突出与爆炸"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#冻土"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#砂土液化"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#膨胀土"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#软土"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#黄土湿陷"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#剥蚀作用"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#固结成岩作用"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#搬运作用"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#沉积作用"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#风化作用"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#动植物"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#土壤"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地形"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地貌"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#植被"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#气候"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#水文"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#变质作用"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地壳运动"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地震作用"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#岩浆作用"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地质灾害"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#孕灾环境"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#承灾体"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#社会环境"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#自然环境"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#致灾因子"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地质灾害"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#社会环境"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#自然环境"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地震"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#构造裂缝"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#火山"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地面塌陷"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#地面沉降"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#非构造地裂缝"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#堤坝溃决"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#塌岸"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#淤积"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#渗漏"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#管涌"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#崩塌"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#泥石流"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#滑坡"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#潜在不稳定斜坡"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#水土流失"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#沼泽化"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#盐渍化"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#荒漠化"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#海岸侵蚀"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#海水入侵"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#海面上升"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#港口淤积"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#修建铁路"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2021/7/untitled-ontology-7#建筑设施破坏"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
